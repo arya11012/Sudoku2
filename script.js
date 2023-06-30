@@ -91,7 +91,7 @@ let SolvePuzzle = document.getElementById('SolvePuzzle')
 let ClearPuzzle = document.getElementById('Clear')
 //GetPuzzle.addEventListener('click',FillBoard(board));
 GetPuzzle.onclick = () => {
-    Generate();
+    Generate2();
 	FillBoard(board);
     ClearPuzzle.innerHTML='Press Solve'
 };
